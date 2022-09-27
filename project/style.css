@@ -1,0 +1,336 @@
+/* s21fe5g */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    /* background: #000; */
+    color: black;
+
+}
+
+
+/* audio section */
+.audio {
+    position: fixed;
+    left: 0px;
+    bottom: -7px;
+    z-index: 1;
+
+}
+
+audio {
+    border: 2px solid skyblue;
+    border-radius: 50px;
+    margin-top: 25px;
+    height: 25px;
+}
+
+
+
+/* navigatin bar */
+
+
+
+#nav {
+    position: sticky;
+    background-color: skyblue;
+    top: 0px;
+}
+
+.nav {
+    display: flex;
+    margin: 0px;
+    width: 100%;
+    /* background-color:transparent; */
+    height: 8vh;
+    /* background: transparent; */
+}
+
+#left {
+    display: flex;
+    width: 20vw;
+    /* border: 2px solid red; */
+    /* color: white; */
+    align-items: center;
+}
+
+#left img {
+    height: 50px;
+    width: 50px;
+    /* border: 2px solid purple; */
+    /* border-radius: 50px; */
+    margin-top: -10px;
+    border-radius: 33px;
+    margin-left: 3px;
+}
+
+#left h3 {
+    font-size: 1.1rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+#center {
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5px;
+}
+
+li {
+    list-style: none;
+    /* color: white; */
+    margin: 1.2em;
+    margin-top: 12px;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    /* color: white; */
+    padding: 0.2em;
+    border-radius: 25px;
+    font-family: cursive;
+}
+
+a:hover {
+    /* background-color: white; */
+    color: grey;
+}
+
+#right {
+    width: 35vw;
+    /* border: 2px solid white; */
+    display: flex;
+}
+
+.btn {
+    height: 55%;
+    width: 75%;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 8px;
+    border: 2px solid grey;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: transparent;
+    /* font-weight: bold; */
+}
+
+.smallbtn {
+    width: 20%;
+    margin-right: 7px;
+    font-size: 1rem;
+    font-family: cursive;
+}
+
+input::placeholder {
+    font-family: cursive;
+    font-size: 1.4rem;
+    color: black;
+}
+
+
+
+
+/* content section  */
+
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+
+}
+
+.content::before {
+    content: "";
+    position: absolute;
+    /* background-color: black; */
+    background: url("background.jpg") no-repeat center center/cover;
+    z-index: -1;
+    height: 210vh;
+    width: 100%;
+    top: 0px;
+    opacity: 0.6;
+}
+
+.content h2 {
+    margin-top: -40px;
+    color: black;
+    font-family: cursive;
+}
+
+.content div p {
+    font-family: cursive;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: black;
+}
+
+.Suggest {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 5px;
+    margin-top: 20%;
+    width: 116%;
+    height: 55%;
+    border-radius: 15px;
+    /* margin-left: 10px; */
+    border: 2px solid black;
+    text-align: center;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+
+
+/* notes section */
+
+
+
+.notes h2 {
+    margin-top: -30px;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+}
+
+.img {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap:wrap;
+    /* border: 2px solid red; */
+    justify-content: space-evenly;
+
+}
+
+.img div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 25%;
+    width: 20vw;
+    margin-bottom: 35px;
+
+}
+img {
+    margin-top: 3px;
+    margin-bottom: -10px;
+    border-radius: 20px;
+}
+
+
+h3{
+    font-family: cursive
+}
+
+#subject1 {
+
+    height: 60%;
+    width: 60%;
+
+}
+
+#subject2 {
+    height: 50%;
+    width: 55%;
+
+
+}
+
+#subject3 {
+    height: 70%;
+    width: 55%;
+
+}
+
+#subject4 {
+
+    height: 50%;
+    width: 65%;
+}
+
+#subject5 {
+    height: 70%;
+    width: 75%;
+
+}
+
+#subject6 {
+    height: 70%;
+    width: 57%;
+
+}
+
+#subject7 {
+    height: 70%;
+    width: 57%;
+
+}
+
+#subject8 {
+    height: 70%;
+    width: 67%;
+}
+
+#subject9 {
+    height: 70%;
+    width: 70%;
+
+}
+
+#subject10 {
+    height: 70%;
+    width: 65%;
+
+}
+
+#subject11 {
+    height: 70%;
+    width: 58%;
+
+}
+
+#subject12 {
+    height: 70%;
+    width: 50%;
+
+}
+
+
+
+
+
+/* footer section */
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    background-color: skyblue;
+    /* color: white; */
+    text-align: center;
+    height: 25px;
+    font-size: 1.2rem;
+    justify-content: center;
+}
